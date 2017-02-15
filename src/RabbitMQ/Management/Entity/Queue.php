@@ -48,6 +48,9 @@ class Queue extends AbstractEntity
     public $disk_reads;
     public $disk_writes;
     public $exclusive;
+    public $garbage_collection;
+    public $reductions_details;
+    public $reductions;
 
     public function getBindings()
     {
