@@ -51,6 +51,10 @@ class Queue extends AbstractEntity
     public $garbage_collection;
     public $reductions_details;
     public $reductions;
+    public $effective_policy_definition;
+    public $message_bytes_paged_out;
+    public $messages_paged_out;
+    public $operator_policy;
 
     public function getBindings()
     {
